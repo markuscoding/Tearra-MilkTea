@@ -326,6 +326,7 @@ FOOTER section */
     height: 450px;
     border-bottom-left-radius: 80px;
     border-bottom-right-radius: 80px;
+    z-index: 1;
   }
   .navbar ul {
     display: block;
