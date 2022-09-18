@@ -7,6 +7,7 @@ toggle.addEventListener("click", function () {
   navBar.classList.toggle("active");
 });
 
+// SLIDER START
 var swiper = new Swiper(".product-slider", {
   loop: true,
   spaceBetween: 20,
@@ -48,3 +49,22 @@ var swiper = new Swiper(".review-slider", {
     },
   },
 });
+
+// SLIDER END
+
+// DOM CHANGE IMAGES
+const toggleButton = document.getElementById("toggle-menu");
+const navLists = document.getElementById("navbar-lists");
+
+toggleButton.addEventListener("click", () => {
+  navLists.classList.toggle("active");
+});
+
+function imgSlider(images) {
+  document.querySelector(".main-product").src = images;
+}
+
+function changeCircleColor(color) {
+  const circle = document.querySelector(".circle");
+  circle.style.background = color;
+}
