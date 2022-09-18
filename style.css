@@ -290,3 +290,70 @@ FOOTER section */
     cursor: pointer;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .home {
+    width: 100%;
+    background-size: cover;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .content .textBox h2 {
+    font-size: 2.5rem;
+  }
+  .content .textBox h2 span {
+    font-size: 1.8rem;
+  }
+  .content .textBox p {
+    font-size: 1rem;
+  }
+  .content .imageBox {
+    width: 100%;
+  }
+  .imageBox .main-product {
+    width: 350px;
+    margin-left: 30px;
+  }
+  .circle {
+    top: 29rem;
+    clip-path: circle(700px at right 800px);
+  }
+  .fa-bars {
+    display: block;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  .navbar {
+    height: 0px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: orange;
+    transition: 0.2s;
+    overflow: hidden;
+  }
+  .navbar.active {
+    height: 450px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    z-index: 1;
+  }
+  .navbar ul {
+    display: block;
+    width: fit-content;
+    margin: 80px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .navbar.active ul {
+    opacity: 1;
+  }
+  .navbar ul li a {
+    margin-bottom: 12px;
+    cursor: pointer;
+  }
+}
