@@ -106,50 +106,6 @@ header {
   background-color: #fa795e;
   clip-path: circle(700px at right 1000px);
 }
-.social-media {
-  position: absolute;
-  top: 50%;
-  right: 30px;
-  transform: translateY(-50);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.social-media li {
-  list-style: none;
-}
-.social-media li i {
-  display: inline-block;
-  margin: 5px 0;
-  font-size: 30px;
-  margin-top: 30px;
-  color: #333;
-  cursor: pointer;
-}
-.social-media li i:hover {
-  opacity: 0.6;
-}
-.thumb {
-  position: absolute;
-  left: 50%;
-  bottom: 5px;
-  transform: translateX(-50%);
-  display: flex;
-}
-.thumb li {
-  list-style: none;
-  display: inline-block;
-  margin: 0 20px;
-  cursor: pointer;
-  transition: 0.5s;
-}
-.thumb li:hover {
-  transform: translateY(-15px);
-}
-.thumb li img {
-  max-width: 100px;
-}
 
 .line {
   width: 250px;
@@ -291,20 +247,10 @@ FOOTER section */
   }
   .content .imageBox {
     width: 100%;
-    margin-right: 50px;
   }
   .circle {
     top: 40rem;
     clip-path: circle(700px at right 800px);
-  }
-  .thumb {
-    top: 70rem;
-  }
-  .social-media {
-    top: 23rem;
-  }
-  .title .bestSeller {
-    margin-top: 180px;
   }
   .fa-bars {
     display: block;
