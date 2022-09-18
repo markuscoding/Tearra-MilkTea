@@ -249,7 +249,7 @@ FOOTER section */
     width: 100%;
   }
   .circle {
-    top: 40rem;
+    top: 29rem;
     clip-path: circle(700px at right 800px);
   }
   .fa-bars {
